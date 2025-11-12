@@ -8,7 +8,6 @@ public class EmailValidator {
         Scanner sc = new Scanner(System.in);
         int validCount = 0;
 
-        // Regex for a simple email check
         Pattern emailPattern = Pattern.compile("^[\\w.%+-]+@[\\w.-]+\\.(com|bg|org)$");
 
         while (true) {
